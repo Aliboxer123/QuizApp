@@ -1,0 +1,16 @@
+* {
+background-color: #F5F7FB;  
+}
+
+.options{
+cursor: pointer;
+display: flex;
+margin: 10px 0px;
+background-color:black;
+color:white
+}
+
+.options:hover{
+background-color: #453636;
+color: #F0F0F0;    
+}

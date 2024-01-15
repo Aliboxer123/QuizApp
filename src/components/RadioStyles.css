@@ -1,0 +1,38 @@
+/* RadioStyle.css */
+
+.custom-radio {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+    /* Adjust padding to match the desired appearance */
+    cursor: pointer;
+    user-select: none;
+}
+
+.custom-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-radio:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    /* Adjust width and height to match the desired appearance */
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    /* Adjust border color */
+    border-radius: 50%;
+}
+
+.custom-radio input:checked+&:before {
+    background-color: #2196F3;
+    /* Adjust background color when checked */
+    border-color: #2196F3;
+    /* Adjust border color when checked */
+}

@@ -1,0 +1,17 @@
+body{
+font-family: 'Inter', sans-serif;
+}
+label{
+border: 1px solid #4D5B9E;
+color: #293264;  
+}
+
+label:hover{
+background-color: #D6DBF5;
+}
+
+
+.checked {
+    background-color: black;
+    color: white;
+}
